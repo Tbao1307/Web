@@ -307,3 +307,52 @@ a {
   justify-content: space-around;
   padding: 50px 50px 50px 50px;
 }
+/* ======================Social Media====================== */
+.social-media {
+  background-color: #151515;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.social-media .main-content {
+  background-color: #151515;
+}
+.social-media .items h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  padding: 50px;
+}
+.social-media .desc-item {
+  padding-bottom: 50px;
+}
+.social-media .items .icon1,
+.social-media .items .icon2,
+.social-media .items .icon3 {
+  width: 30px;
+  height: 30px;
+}
+.social-media .items span {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+}
+/* ==================Footer================== */
+.footer {
+  margin-top: 100px;
+  background-color: black;
+}
+.footer .main-content {
+  background-color: black;
+}
+.footer .main-content .desc-items a {
+  text-decoration: none;
+  color: rgb(94, 85, 76);
+}
+.footer .main-content .desc-items {
+  color: rgb(94, 85, 76);
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
