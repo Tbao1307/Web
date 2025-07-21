@@ -235,3 +235,75 @@ a {
   flex-direction: row-reverse;
   font-size: 1.8rem;
 }
+/* ==================Feedback================== */
+.feedback {
+  margin-top: 100px;
+  padding: 96px 0;
+  background-color: #171100;
+  color: #ffffff;
+  display: flex;
+}
+.feedback .main-content,
+.feedback .main-feedback,
+.feedback .feedback-item,
+.feedback .item1,
+.feedback .item2 {
+  background-color: #171100;
+  color: #ffffff;
+}
+.feedback-item {
+  display: flex;
+  justify-content: space-between;
+}
+.feedback-item .item1 .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+.feedback-item .item1 .name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font--heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42;
+}
+.feedback-item .item1 .desc {
+  margin-top: 8px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  width: 300px;
+}
+.feedback-item .item2 p {
+  width: 66%;
+  height: 100%;
+  margin-left: auto;
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 40px;
+}
+/* ====================Partnes==================== */
+.partners .title {
+  object-fit: cover;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 2 0px;
+}
+.partners .logo-partnes {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 50px 50px;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  text-align: center;
+}
+.partners .logo-partnes img {
+  justify-content: space-around;
+  padding: 50px 50px 50px 50px;
+}
